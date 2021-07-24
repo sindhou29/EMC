@@ -1,0 +1,8 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <kbase name="reserve" packages="reserve" default="false">
+        <ksession name="ksession-reserve" default="false"/>
+    </kbase>
+    <kbase name="acct_stmt" packages="acct_stmt" default="false">
+        <ksession name="ksession-acct_stmt" default="false"/>
+    </kbase>
+</kmodule>
